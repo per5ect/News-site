@@ -1,13 +1,62 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "123456",
+      "role": "news-creator",
+      "avatar": "https://img.freepik.com/premium-vector/coding-icon-cartoon-vector-computer-education-kid-code_98402-62131.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "password123",
+      "role": "reader",
+      "avatar": "https://via.placeholder.com/50"
+    },
+    {
+      "id": 3,
+      "name": "Ryan Ghostlig",
+      "email": "john.doe@example.com",
+      "password": "123456",
+      "role": "news-creator",
+      "avatar": "https://media.themoviedb.org/t/p/w500/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+    }
   ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "news": [
+    {
+      "id": 1,
+      "title": "Breaking News: React is Awesome!",
+      "content": "React makes it painless to create interactive UIs.",
+      "authorId": 1,
+      "date": "14.12.2024",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2012/12/img_logo_blue.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Breaking News: React is Awesome!",
+      "content": "React makes it painless to create interactive UIs.",
+      "authorId": 3,
+      "date": "14.12.2024",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2012/12/img_logo_blue.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Breaking News: React is Awesome!",
+      "content": "React makes it painless to create interactive UIs.",
+      "authorId": 3,
+      "date": "14.12.2024",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2012/12/img_logo_blue.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Breaking News: React is Awesome!",
+      "content": "React makes it painless to create interactive UIs.",
+      "authorId": 1,
+      "date": "14.12.2024",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2012/12/img_logo_blue.jpg"
+    }
+  ]
 }
