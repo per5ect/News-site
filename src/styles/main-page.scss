@@ -1,0 +1,19 @@
+.card-container {
+  gap: 1rem;
+  .card{
+    max-width: 19rem;
+    
+    @media (max-width: 1024px) {
+      max-width: 18rem;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 21rem;
+    }
+
+    @media (max-width: 425px) {
+      max-width: 25rem;
+    }
+  }
+}
+
