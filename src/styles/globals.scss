@@ -1,0 +1,65 @@
+@import "zeroing";
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../assets/fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../assets/fonts/PlayfairDisplay-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+.play-fair-regular{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.play-fair-bold{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  min-height: 85px;
+}
+main {
+  flex: 1;
+}
+
+footer {
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+  .dot:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 6px;
+    height: 20px;
+    background-color: black;
+    border-radius: 12px;
+    top: 10px;
+  }
+
+
+
+
+
