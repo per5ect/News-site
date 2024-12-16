@@ -1,6 +1,9 @@
 .card-container {
   gap: 1rem;
   .card{
+    .home-card-img{
+      max-height: 170px;
+    }
     max-width: 19rem;
     
     @media (max-width: 1024px) {

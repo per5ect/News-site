@@ -1,4 +1,4 @@
-export function MainNewsSlider() {
+export function MainHomePageNewsSlider() {
     return (
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
             <div className="carousel-indicators">

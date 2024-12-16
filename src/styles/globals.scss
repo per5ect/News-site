@@ -1,4 +1,4 @@
-@import "zeroing";
+
 @font-face {
   font-family: 'Playfair Display';
   src: url('../assets/fonts/PlayfairDisplay-Regular.woff2') format('woff2');
@@ -42,6 +42,10 @@ main {
 
 footer {
 }
+a{
+  text-decoration: none;
+}
+
 #root {
   display: flex;
   flex-direction: column;

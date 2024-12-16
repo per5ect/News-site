@@ -1,13 +1,14 @@
 import {CircleUser} from "lucide-react";
 import HeaderNavLinks from "./HeaderNavLinks.jsx";
 import {SearchInputForm} from "./SearchInputForm.jsx";
+import {Link} from "react-router-dom";
 
 export function Header() {
     return (
         <header className="bg-dark">
             <div className="container">
             <nav className="navbar navbar-expand-lg h-85">
-                <a className="navbar-brand text-white" href="#">NEWS Site</a>
+                <Link className="navbar-brand text-white"  to={"/"}>NEWS Site</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
