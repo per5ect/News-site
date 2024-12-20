@@ -18,9 +18,9 @@
     },
     {
       "id": "3",
-      "name": "Ryan Ghostlig",
-      "email": "john.doe@example.com",
-      "password": "123456",
+      "name": "Ryan Gosling",
+      "email": "ryang@example.com",
+      "password": "ryan123",
       "role": "news-creator",
       "avatar": "https://media.themoviedb.org/t/p/w500/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
     }
@@ -28,39 +28,13 @@
   "news": [
     {
       "id": "1",
-      "title": "Breaking News: React is Awesome! test",
-      "content": "React makes it painless to create interactive UIs.",
+      "title": "Government shutdown looms",
+      "cardContent": "Bill to fund the government through March 14 unveiled but Johnson’s dealmaking with Democrats angers conservatives",
+      "mainContent": "House Speaker Mike Johnson unveiled a spending bill late Tuesday that would avert a government shutdown if it is passed by both the House and Senate before funding runs out on Saturday.\n\nThe spending plan, known as a continuing resolution, has bipartisan support.\n\nIt would fund the government through March 14, setting up another spending showdown in the early days of the Trump administration. Republicans will control both the Senate and House come January, but the party will have slim margins in both chambers.\n\nThe deal contains nearly $100 billion in disaster aid and $10 billion more in banking relief for farmers in rural communities. It would also extend the farm bill by one year, continue allowing more seniors to use telehealth and reform how pharmacy benefit managers, known as PBMs, operate.",
       "authorId": "1",
       "date": "14.12.2024",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/screenshot-2024-12-16-at-12-52-44-pm.jpg?c=16x9&q=w_1280,c_fill",
-      "categories": "Technology"
-    },
-    {
-      "id": "2",
-      "title": "Breaking News []: React is Awesome! hiпп",
-      "content": "React makes it painless to create interactive UIs. здарова",
-      "authorId": "1",
-      "date": "14.12.2024",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2151824932.jpg?q=w_2000,c_fill/f_webp",
-      "categories": "Technology"
-    },
-    {
-      "id": "3",
-      "title": "Breaking News: React is Awesome! hiпп",
-      "content": "React makes it painless to create interactive UIs. здарова",
-      "authorId": "3",
-      "date": "14.12.2024",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2188170432-20241213230653331.jpg?c=16x9&q=h_144,w_256,c_fill",
-      "categories": "Technology"
-    },
-    {
-      "id": "4",
-      "title": "Breaking News: React is Awesome!",
-      "content": "React makes it painless to create interactive UIs. здарова",
-      "authorId": "3",
-      "date": "14.12.2024",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1242354154-copy.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
-      "categories": "Technology"
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2188625629.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "categories": "Politics"
     }
   ]
 }

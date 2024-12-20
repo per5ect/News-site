@@ -7,3 +7,8 @@ export const getAllNews = async () => {
         return response.data;
 }
 
+export const getLastNews = async () => {
+        const response = await axios.get(`${DB}/news?_sort=-date&_order=desc&_limit=6`);
+        return response.data;
+}
+
