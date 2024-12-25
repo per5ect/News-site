@@ -1,0 +1,9 @@
+.footer-links{
+  column-gap: 15px;
+  @media (max-width: 425px) {
+    margin-left: 20px;
+  }
+  @media (max-width: 375px) {
+    margin-left: 10px;
+  }
+}

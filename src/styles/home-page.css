@@ -1,0 +1,26 @@
+.card-container {
+  gap: 1rem;
+}
+.card-container .card {
+  max-width: 19rem;
+}
+.card-container .card .home-card-img {
+  max-height: 170px;
+}
+@media (max-width: 1024px) {
+  .card-container .card {
+    max-width: 18rem;
+  }
+}
+@media (max-width: 768px) {
+  .card-container .card {
+    max-width: 18rem;
+  }
+}
+@media (max-width: 425px) {
+  .card-container .card {
+    max-width: 20rem;
+  }
+}
+
+/*# sourceMappingURL=home-page.css.map */

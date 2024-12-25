@@ -1,28 +1,49 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "John Doe3",
+      "name": "Admin",
+      "lastName": "Administrator",
+      "email": "admin@example.com",
+      "avatar": "https://i.pinimg.com/736x/e5/7b/98/e57b987df5b29f59db3eb669499154ee.jpg",
+      "password": "admin123",
+      "role": "admin",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "John",
+      "lastName": "Doe",
       "email": "john.doe@example.com",
       "password": "123456",
       "role": "news-creator",
       "avatar": "https://img.freepik.com/premium-vector/coding-icon-cartoon-vector-computer-education-kid-code_98402-62131.jpg?semt=ais_hybrid"
     },
     {
-      "id": "2",
-      "name": "Jane Smith",
+      "name": "Jane",
+      "lastName": "Smith",
       "email": "jane.smith@example.com",
-      "password": "password123",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsGLPs05tdboLhwzZjBvZ1VpNeLq34B5JBAQ&s",
+      "password": "1234",
       "role": "reader",
-      "avatar": "https://via.placeholder.com/50"
+      "id": "3"
     },
     {
-      "id": "3",
-      "name": "Ryan Gosling",
+      "name": "Ryan",
+      "lastName": "Gosling",
       "email": "ryang@example.com",
+      "avatar": "https://media.themoviedb.org/t/p/w500/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg",
       "password": "ryan123",
       "role": "news-creator",
-      "avatar": "https://media.themoviedb.org/t/p/w500/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+      "id": "4"
+    },
+    {
+      "id": "fe77",
+      "name": "Alex",
+      "lastName": "Johnson",
+      "email": "alex.johnson@newsportal.com",
+      "password": "SecurePass123",
+      "avatar": "https://lh4.googleusercontent.com/proxy/8XJ3MZvvyWtQQiZ5PZxxgSzhrUfwzOX1uaGaiU8ZGgzWLXxUJnGigpkGQeNOqQT6GMwp7DQ51KjH0asqTdF0uwWCMU76ZTI",
+      "role": "news-creator"
     }
   ],
   "news": [
@@ -35,6 +56,106 @@
       "date": "14.12.2024",
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2188625629.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
       "categories": "Politics"
+    },
+    {
+      "id": "73d1",
+      "title": "The best save ever in Premier League.",
+      "cardContent": "Aston Villa goalkeeper Emiliano Martínez makes ‘the best save ever’ in Premier League match against Nottingham Forest",
+      "mainContent": "On Saturday, in the 59th minute of his team’s Premier League clash against Nottingham Forest, time seemed to stand still for Aston Villa goalkeeper Emiliano Martínez.\n\nAs a header from Forest’s Nicolás Domínguez whizzed past him, Martínez leapt backwards, reached out one hand and somehow pushed the ball to the ground to stopped it spinning into the net when it was just centimetres in front of the goal line.\n\nIt was, as former Wales defender Ashley Williams said on BBC’s Match of the Day, simply “the best save I have ever seen.”\n\n“He is so clever, he understands where he is and what he needs to do. He is facing the wrong way,” Williams added.",
+      "categories": "Sport",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/2024-12-14t185157z-1430163983-up1ekce1gejyf-rtrmadp-3-soccer-england-nfo-avl-report.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "3",
+      "date": "22.12.2024"
+    },
+    {
+      "id": "e906",
+      "title": "Want to know what’s flying overhead?",
+      "cardContent": "People in New Jersey are freaking(!) out(!) about sightings of what they say appear to be “giant drones” flying around at night. Government officials have said at least some of those sightings are just regular, old commercial flights.",
+      "mainContent": "Apps like Flightradar24, Plane Finder and FlightAware all have features that let users see, in real-time, what aircraft are flying around them, including the thousands of commercial and private flights and helicopters that may be in the skies at any given time. In some cases, the apps can also identify unmanned aircraft, such as commercial drones that are signaling their location the same way planes do.\n\nWith these apps — or their websites — you can open a map of your location and see the air traffic above you, along with details about individual aircraft such as its altitude, speed and destination. You may also see a code denoting the plane’s airline or a registration code for private aircraft.",
+      "categories": "Technology",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1242354154-copy.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "4",
+      "date": "25.12.2024"
+    },
+    {
+      "id": "3d26",
+      "title": "Electoral College: How it’s changed this year",
+      "cardContent": "More than 150 million Americans cast ballots for president in November, but it’s 538 electors who actually elect the president when they meet in state capitols every four years.",
+      "mainContent": "That archaic process, known as the Electoral College, has endured multiple repeal efforts and one very serious attempt to undermine it in 2020.\n\nBut the Electoral College survives.\nWhen electors meet on Tuesday, it’s likely to be a much less dramatic affair in 2024 than it was in 2020, simply because President-elect Donald Trump won the election and is not contesting the results. His Democratic opponent, Vice President Kamala Harris, is also respecting the will of voters this year.",
+      "categories": "Politics",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1230451908.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "4",
+      "date": "26.12.2024"
+    },
+    {
+      "id": "6910",
+      "title": "The 2016 NBA Christmas Day classic",
+      "cardContent": "Cheering on your favorite NBA team or watching the very biggest stars of the basketball world is a welcome present for many on Christmas Day and this year will be no different.",
+      "mainContent": "One of the marquee matchups on December 25 sees Steph Curry and the Golden State Warriors square off against LeBron James and the Los Angeles Lakers at 8 p.m. ET\n\nBut while James, Curry and Draymond Green are reaching the twilights of their respective careers, fans will instantly be taken back to their golden years and the trio starring in what is widely seen as the best Christmas Day game of all time.",
+      "categories": "Sport",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-630519910.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "fe77",
+      "date": "26.12.2024"
+    },
+    {
+      "id": "abb6",
+      "title": "Trump falsely claims he never wanted to end the Affordable Care Act",
+      "cardContent": "Calling Vice President Kamala Harris “a liar,” former President Donald Trump claimed that he never wanted to terminate the Affordable Care Act – an accusation Harris has repeatedly levied against him on the campaign trail.",
+      "mainContent": "Trump is trying to rewrite history. Repealing and replacing the landmark health reform law, popularly known as Obamacare, was among his top campaign promises when he first ran for president in 2016, and he spent the initial months of his term pushing Congress to pass legislation to do just that. Trump revived the idea early in the current campaign before backtracking. At September’s presidential debate with Harris, he called the Affordable Care Act “lousy” and said “we” are working on “things” to replace it.\n\nEven before he ran for office, Trump was crusading on Twitter, now known as X, to repeal the law signed by his predecessor, Barack Obama.",
+      "categories": "Politics",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-905930586.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "fe77",
+      "date": "22.12.2024"
+    },
+    {
+      "id": "30ac",
+      "title": "Federal appeals court declines to temporarily block ban on TikTok",
+      "cardContent": "A federal appeals court on Friday declined to temporarily block a ban on TikTok, teeing up a showdown at the Supreme Court over whether the law should take effect while the social media platform’s challenge to it plays out.",
+      "mainContent": "Last week, the DC Circuit Court of Appeals unanimously upheld the law, clearing the way for it to take effect on January 19. Days later, TikTok asked the court to issue a temporary pause on the ban while the company asks the Supreme Court to review its challenge to the law. The appeals court unanimously rejected that bid in a brief, unsigned order that called such a block “unwarranted.”\n\nThe TikTok ban has been one of the most closely watched pieces of federal legislation in recent years, and it’s been widely expected that the law would eventually land before the conservative-majority Supreme Court.",
+      "categories": "Technology",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap24323631105906.jpg?c=16x9&q=f_webp",
+      "authorId": "fe77",
+      "date": "21.12.2024"
+    },
+    {
+      "id": "9260",
+      "title": "History-making probe attempts closest-ever approach to the sun",
+      "cardContent": "The Parker Solar Probe was set to zoom by the sun on Tuesday during a record-breaking flyby, coming within 3.8 million miles (6.1 million kilometers) of the solar surface during humanity’s closest approach to a star.",
+      "mainContent": "The uncrewed spacecraft was expected to fly at 430,000 miles per hour (692,000 kilometers per hour), which is fast enough to reach Tokyo from Washington, DC, in under a minute, according to NASA. The speedy flyby would make the probe the fastest human-made object in history, the agency shared December 16 during a NASA Science Live presentation on YouTube.\n\nThe mission has been building up to this historic milestone since it launched on August 12, 2018 — an event attended by the probe’s namesake, Dr. Eugene Parker, an astrophysicist who pioneered the solar research field of heliophysics.",
+      "categories": "Technology",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/181030102541-06-parker-solar-probe.jpg?q=w_1110,c_fill/f_webp",
+      "authorId": "fe77",
+      "date": "26.12.2024"
+    },
+    {
+      "id": "d46f",
+      "title": "How to track Santa Claus around the world with NORAD’s flight tracker",
+      "cardContent": "While public anxieties have loomed over the Northeast amid possible drone sightings, one sighting will soon bring holiday cheer across the country: Santa Claus.",
+      "mainContent": "The North American Aerospace Defense Command is once again prepared to track Santa and his reindeer around the world.\n\nNORAD, which is responsible for protecting the skies over the United States and Canada, activates its Santa tracking system at 6 a.m. ET on Christmas Eve. Santa watchers can follow his journey on NORAD’s website or they can call the command center at 1-877-HI-NORAD (1-877-446-6723) to participate in the yearly Christmas tradition.\n\nThe tracking service can also be accessed through the NORAD Tracks Santa app, social media, Amazon Alexa, OnStar and SiriusXM, according to NORAD.",
+      "categories": "Politics",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/8812573.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "fe77",
+      "date": "19.12.2024"
+    },
+    {
+      "id": "c920",
+      "title": "Five-time grand slam winner Iga Świątek suspended after testing positive for prohibited substance",
+      "cardContent": "Polish tennis star Iga Świątek has accepted a one-month suspension after testing positive for a banned substance, the International Tennis Integrity Agency (ITIA) announced Thursday.",
+      "mainContent": "Świątek, a five-time grand slam winner, tested positive for the prohibited substance trimetazidine.\n\nThe ITIA said they found Świątek’s “level of fault was considered to be at the lowest end of the range for ‘No Significant Fault or Negligence.’”\n\n“The ITIA accepted that the positive test was caused by the contamination of a regulated non-prescription medication (melatonin), manufactured and sold in Poland that the player had been taking for jet lag and sleep issues, and that the violation was therefore not intentional,” the ITIA said in Thursday’s statement.",
+      "categories": "Sport",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/2024-11-15t144225z-840337791-up1ekbf14unam-rtrmadp-3-tennis-bjkcup.JPG?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "fe77",
+      "date": "24.12.2024"
+    },
+    {
+      "id": "8483",
+      "title": "Microplastics are choking our waters. Could a sponge made of squid bones help remove them?",
+      "cardContent": "Microplastics are everywhere. They have been found on the peak of Mount Everest and in creatures inhabiting the deepest trenches of the sea. They’re in bottled water, human placentas and breast milk.",
+      "mainContent": "These tiny plastic particles choke wildlife, disrupt ecosystems, and threaten human health – and they are notoriously difficult to remove.\n\nBut scientists in China have come up with a possible solution: a biodegradable sponge made of squid bones and cotton.\n\nA research team from Wuhan University used chitin from squid bones and cellulose from cotton – two organic compounds known for eliminating pollution from wastewater – to create a biodegradable sponge.",
+      "categories": "Technology",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1919560218.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",
+      "authorId": "fe77",
+      "date": "21.12.2024"
     }
   ]
 }

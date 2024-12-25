@@ -1,0 +1,16 @@
+.all-news-title-btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
+}
+
+.all-news-btns{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,28 @@
+.img-news-details {
+  width: 60rem;
+}
+@media (max-width: 1024px) {
+  .img-news-details {
+    width: 50rem;
+  }
+}
+@media (max-width: 768px) {
+  .img-news-details {
+    width: 40rem;
+  }
+}
+@media (max-width: 425px) {
+  .img-news-details {
+    width: 25rem;
+  }
+}
+
+.social-links {
+  column-gap: 10px;
+}
+
+.socials-icons {
+  width: 10px;
+}
+
+/*# sourceMappingURL=news-details-page.css.map */

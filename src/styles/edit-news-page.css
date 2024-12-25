@@ -1,0 +1,18 @@
+.edit-img {
+  width: 35rem;
+  height: 20rem;
+}
+@media (max-width: 768px) {
+  .edit-img {
+    width: 30rem;
+    height: 15rem;
+  }
+}
+@media (max-width: 425px) {
+  .edit-img {
+    width: 15rem;
+    height: 10rem;
+  }
+}
+
+/*# sourceMappingURL=edit-news-page.css.map */
