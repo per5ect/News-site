@@ -18,15 +18,17 @@ export function LoginMain() {
                                 <label htmlFor="email" className="form-label text-light">Email address</label>
                                 <input type="email" id="email" className="form-control"
                                        value={email}
-                                       onChange={(e) => setEmail(e.target.value)}/>
+                                       onChange={(e) => setEmail(e.target.value)}
+                                        placeholder={"example@example.com"} required/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="password" className="form-label text-light">Password</label>
                                 <input type="password" id="password" className="form-control"
                                        value={password}
-                                       onChange={(e) => setPassword(e.target.value)}/>
+                                       onChange={(e) => setPassword(e.target.value)}
+                                        placeholder={"Password"} required/>
                             </div>
-                            {error && <p className="text-light">{error}</p>}
+                            {error && <p className="text-light fw-bold">{error}</p>}
                         </div>
                         <button type="submit" className="btn btn-outline-light btn-lg w-100">Login</button>
                     </form>
