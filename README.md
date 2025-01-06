@@ -30,7 +30,7 @@ Run the development server with:
 
 `Email: ryang@example.com`<br>
 `Password: ryan123`
-
+ 
 `Email: alex.johnson@newsportal.com`<br>
 `Password: SecurePass123`
 
