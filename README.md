@@ -1,6 +1,43 @@
-<h1 align="center">How to run project</h1>
-  <h2 align="start"><ins>DB Run</ins></h2>
-  <p>$ npx json-server db.json</p>
+# 🛠️ How to Run the Project
 
-  <h2 align="start"><ins>Run App server</ins></h3>
-  <p>$ npm run dev</p>
+
+
+## 📦 **Database Setup**
+Start the JSON server to simulate a database:
+   ```bash
+      npx json-server db.json
+   ```
+
+
+## 🚀 **Run the Application Server**
+Run the development server with:
+   ```bash
+      npm run dev
+   ```
+
+---
+# 🫂 Account login data
+
+---
+
+##  **Admin**
+`Password: admin123` <br>
+`Email: admin@example.com`
+
+##  **News Creators**
+`Email: john.doe@example.com`<br>
+`Password: 123456`
+
+`Email: ryang@example.com`<br>
+`Password: ryan123`
+
+`Email: alex.johnson@newsportal.com`<br>
+`Password: SecurePass123`
+
+##  **Readers**
+`Email: jane.smith@example.com` <br>
+`Password: 1234`
+
+
+
+
