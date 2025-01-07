@@ -1,6 +1,12 @@
 # 🛠️ How to Run the Project
 
 
+## 🔗 **Install Dependencies**
+Before starting the project, you need to install all the dependencies that are defined in the `package.json` file.
+   ```bash
+      npm install
+   ```
+
 
 ## 📦 **Database Setup**
 Start the JSON server to simulate a database:
@@ -16,7 +22,7 @@ Run the development server with:
    ```
 
 ---
-# 🫂 Account login data
+# 👥 Account login data
 
 ---
 
